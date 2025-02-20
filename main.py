@@ -6,6 +6,7 @@ name2 = input("What is your partner's name?")
 #name1 and name2 as one word
 combined_names = name1 + name2
 lower_names = combined_names.lower()
+#names_length = len(lower_names)
 
 #check the times of the letters occurrences for the word true love
 #t = lower_names.count("t")
@@ -30,7 +31,6 @@ for letter in lower_names:
     if letter in firstWord:
         first_digit += 1
 
-for letter in lower_names:
     if letter in secondWord:
         second_digit += 1
 
